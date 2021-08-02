@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX CLONE</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--OWL css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">SCIFLIX</h2>
+            <nav>
+                <a href="a">Início</a>
+                <a href="a">Series</a>
+                <a href="a">Filmes</a>
+                <a href="a">Documentários</a>
+            </nav> <!--navegação-->
+        </div>
+    </header>
+    <main>
+        <div class="filmeprincipal">
+            <div class="container">
+                <h3 class="titulo">BLACK MIRROR</h3>
+                <p class="descricao">Esta série antológica de ficção científica explora um futuro próximo onde a natureza humana e a tecnologia de ponta entram em um perigoso conflito. Assista agora a nova temporada de Black Mirror que está imperdível.</p>
+                <div><!--Como não é filha direta a div não recebe as mesmas propriedade de estilo-->
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrossel-filmes">
+        <div class="tipo">
+            <p>Filmes</p>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/bird-box.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/oxigenio.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/durante-la-tormenta.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/awake.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/black-mirror-movie.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="carrossel-series">
+        <div class="tipo">
+            <p>Series</p>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/expresso-do-amanha.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/the-rain.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/love-death-robots.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/better-than-us.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/3-porcento.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <div class="carrossel-documentarios">
+        <div class="tipo">
+            <p>Documentários</p>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/codigo-bill-gates.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/privacidade-hackeada.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/into-the-inferno.png" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/connected.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/cosmos.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c52e6f6a17.js" crossorigin="anonymous"></script>
+    <script src="Js/owl/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="Js/owl/owl.carousel.min.js" crossorigin="anonymous"></script>
+    <script src="Js/owl/main.js" crossorigin="anonymous"></script>
+</body>
+</html> 
